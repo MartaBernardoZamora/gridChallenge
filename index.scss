@@ -1,0 +1,29 @@
+.container{
+    font-size: 48px;
+    font-family: "Roboto";
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(4,1fr minmax(auto, 20vh));
+    gap: 4%;
+    width: 95vw;
+    height: 95vh;
+    &__cell{
+        border: 1px solid #000000;
+        text-align: center;
+        align-content: center;
+        grid-column: span 2;   
+        &--r2{
+            grid-row: span 2;
+        }
+        &--4{
+            grid-column: span 4;
+        }
+        &--5{
+            grid-column: span 5;
+        }
+        &--6{
+            grid-column: span 6;
+        }
+    }
+}
