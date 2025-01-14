@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("/src/assets/fonts/roboto/Roboto-VariableFont_wdth,wght.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
 .container {
   font-size: 48px;
   font-family: "Roboto";
