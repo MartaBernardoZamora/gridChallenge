@@ -10,13 +10,11 @@
 .container{
     font-size: 48px;
     font-family: "Roboto";
-    margin:auto;
+    margin:2rem;
     display: grid;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(4,1fr minmax(auto, 20vh));
-    gap: 4%;
-    width: 95vw;
-    height: 95vh;
+    gap: 2rem;
     &__cell{
         border: 1px solid #000000;
         text-align: center;
